@@ -9,8 +9,8 @@ namespace MyPocketGPTGuruBot.Services
 {
     public static class TelegramBot
     {
-        private static readonly string TelegramBotToken = "5943890296:AAEff4_vL9xRz-UP4AZDQtu6LSGw2gGbTPw";
-        private static readonly string ChatGptApiToken = "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";
+        private static readonly string TelegramBotToken = "";
+        private static readonly string ChatGptApiToken = "";
 
         private static ITelegramBotClient _botClient;
         private static ChatGptApiHelper _chatGptApiHelper;
